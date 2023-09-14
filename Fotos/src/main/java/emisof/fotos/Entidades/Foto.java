@@ -8,7 +8,8 @@ import lombok.Data;
 @Data
 @AllArgsConstructor public class Foto
 {
-    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
     String nombre;
     String mimeType;
